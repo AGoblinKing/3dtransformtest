@@ -1,0 +1,9 @@
+{
+    "dirs" : [
+        "./build"
+    ],
+    "steps" : {
+        "default" : [ "pack-css", "browserify" ],
+        "watch"   : [ "watcher" ]
+    }
+}

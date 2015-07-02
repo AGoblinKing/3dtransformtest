@@ -1,0 +1,113 @@
+.circle {
+    width : 30px;
+    height : 30px;
+    margin-left: -15px;
+    margin-top: -15px;
+    border-radius: 15px;
+    background-color: gray;
+    position: absolute;
+    font-size: 10px;
+    color: white;
+    border: 2px solid black
+}
+
+.body {
+    -webkit-transform: translateY(30px);
+        -ms-transform: translateY(30px);
+            transform: translateY(30px);
+}
+
+.larm {
+    -webkit-transform: translate3d(-30px, 30px, 0px) rotateY(-45deg);
+            transform: translate3d(-30px, 30px, 0px) rotateY(-45deg);
+}
+
+.rarm {
+    -webkit-transform: translate3d(30px, 30px, 0px) rotateY(45deg);
+            transform: translate3d(30px, 30px, 0px) rotateY(45deg);
+}
+
+.body-lower {
+    -webkit-transform: translate3d(0px, 60px, 0px);
+            transform: translate3d(0px, 60px, 0px);
+}
+
+.lleg {
+    -webkit-transform: translate3d(-30px, 90px, 0px) rotateY(-45deg);
+            transform: translate3d(-30px, 90px, 0px) rotateY(-45deg);
+}
+
+.rleg {
+    -webkit-transform: translate3d(30px, 90px, 0px) rotateY(45deg);
+            transform: translate3d(30px, 90px, 0px) rotateY(45deg);
+}
+
+.person {
+    padding: 50px;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+}body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#viewport {
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    -webkit-perspective: 5200px;
+            perspective: 5200px;
+}
+
+.hbox {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.vbox {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.flex {
+    -webkit-box-flex : 1;
+    -webkit-flex : 1;
+        -ms-flex : 1;
+            flex : 1;
+}
+.center {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-align-content: center;
+        -ms-flex-line-pack: center;
+            align-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.side {
+    position: absolute;
+    border: 2px solid black;
+}
+
+.shape {
+   -webkit-transform-style: preserve-3d;
+           transform-style: preserve-3d;
+}

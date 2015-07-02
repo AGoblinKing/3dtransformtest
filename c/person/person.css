@@ -1,0 +1,41 @@
+.circle {
+    width : 30px;
+    height : 30px;
+    margin-left: -15px;
+    margin-top: -15px;
+    border-radius: 15px;
+    background-color: gray;
+    position: absolute;
+    font-size: 10px;
+    color: white;
+    border: 2px solid black
+}
+
+.body {
+    transform: translateY(30px);
+}
+
+.larm {
+    transform: translate3d(-30px, 30px, 0px) rotateY(-45deg);
+}
+
+.rarm {
+    transform: translate3d(30px, 30px, 0px) rotateY(45deg);
+}
+
+.body-lower {
+    transform: translate3d(0px, 60px, 0px);
+}
+
+.lleg {
+    transform: translate3d(-30px, 90px, 0px) rotateY(-45deg);
+}
+
+.rleg {
+    transform: translate3d(30px, 90px, 0px) rotateY(45deg);
+}
+
+.person {
+    padding: 50px;
+    transform-style: preserve-3d;
+}

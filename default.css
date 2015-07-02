@@ -1,0 +1,38 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+}
+
+#viewport {
+    transform-style: preserve-3d;
+    perspective: 5200px;
+}
+
+.hbox {
+    display: flex;
+}
+.vbox {
+    display: flex;
+    flex-direction: column;
+}
+.flex {
+    flex : 1;
+}
+.center {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.side {
+    position: absolute;
+    border: 2px solid black;
+}
+
+.shape {
+   transform-style: preserve-3d;
+}
